@@ -1,0 +1,42 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* ICONS */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+:root{
+    color-scheme: light dark;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+ul {
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
