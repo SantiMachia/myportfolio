@@ -68,10 +68,11 @@ footer {
 .home {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     padding: 20px;
     align-items: center;
     height: 100vh;
+    gap: 20px;
+
     justify-content: center;
 }
 
@@ -158,17 +159,23 @@ object-fit: cover;
 
     .home-text {}
 
-    .h1-home {}
+    .h1-home {
+        font-size: 32px;
+    }
 
     .location {}
 
     .location-icon {}
 
-    .location-p {}
+    .location-p {
+        font-size: 18px;
+    }
 
     .figure-img {}
 
-    .home-img {}
+    .home-img {
+        max-width: 300px;
+    }
 }
 
 @media(min-width: 1440px) {
